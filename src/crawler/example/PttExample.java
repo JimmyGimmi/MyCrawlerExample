@@ -4,7 +4,7 @@ import com.github.abola.crawler.CrawlerPack;
 import org.apache.commons.logging.impl.SimpleLog;
 
 /**
- * 爬蟲包程式的全貌，就只有這固定的模式
+ * 爬蟲包程式的全貌，就只有這固定的模
  * 
  * @author Abola Lee
  *
