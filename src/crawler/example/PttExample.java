@@ -20,7 +20,7 @@ public class PttExample {
 		CrawlerPack.setLoggerLevel(SimpleLog.LOG_LEVEL_OFF);
 
 		// 遠端資料路徑
-		String uri = "https://www.ptt.cc/bbs/Gossiping/M.1512863117.A.FC8.html";
+		String uri = "https://www.ptt.cc/bbs/Gossiping/M.1512865901.A.D5D.html";
 
 		System.out.println(
 				CrawlerPack.start()
@@ -35,7 +35,7 @@ public class PttExample {
 			    //.getFromXml(uri)
 			    
 			    // 這兒開始是 Jsoup Document 物件操作
-			    //.select(".css .selector ")
+			    .select("span.hl.push-tag:contains(推)+span.f3.hl.push-userid")
 			    
 		);
 	}
