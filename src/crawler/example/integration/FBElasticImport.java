@@ -12,16 +12,16 @@ public class FBElasticImport {
 
     static String elasticHost = "dyn.gibar.co" ;
     static String elasticPort = "9200" ;
-    static String elasticIndex = "abola2";
+    static String elasticIndex = "jimmygimmi";
     static String elasticIndexType = "data";
-    static String pageName = "JudgeAd";
+    static String pageName = "nba";
     // 2017-09-02
-    static long start = 1504363907;
+    static long start = 1512086400;
     // 往前抓抓取日期數
-    static int days = 10;
+    static int days = 15;
     // 每日抓取文章上限 (上限1000)
-    static int maxPosts = 10;
-    static String access_token = "EAACEdEose0cBAAuJhUlaZCuuqYnzXXXKPGY7Es4KZCLBLpnrIdCWjutfSl1AFZAdR3pFnF6PdrfmaU2EwyllSxhKAd7ZCIGfxZCeg8VkdspelNr9vVWIZCeBRnU5KUlZAPh9zamyT836FmdCadDfzwFILwR6hdMse7irLpIto5cnUnqSV4MtEAA2Hf8slFdXZBS489aSanZCYLAZDZD";
+    static int maxPosts = 15;
+    static String access_token = "EAACEdEose0cBAIJVRZCQOUn32C5ta64DGEaLP5dynFAqcBuuUo93OsIvcivd14Bgv6mL8Vr3zwQhOSx7QxvxabmZBZAq1jxOueJLoPxbyvquMZAx0KWy9BFyaQzAjsK1iffZBycZCGHLZBxRoPZCmNZC4sjdTnlTwqKiug8GwRnyZB6MiAdDNSLZAqSMaUSXUEL2aTJZAFUIQhZCPqQZDZD";
 
     public static void main(String[] args) {
 
